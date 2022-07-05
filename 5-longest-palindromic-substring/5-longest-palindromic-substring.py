@@ -10,12 +10,11 @@ class Solution:
                 right += 1
             return s[left + 1: right -1]
         
-        words = []
+        result = ''
         
         for i in range(0, len(s)-1):
-            words.append(expand(i, i+1))
-            words.append(expand(i, i+2))
-        
-        result = max(words, key=len)
-        
+            result = max(result,
+                         expand(i, i+1),
+                         expand(i, i+2),
+                         key=len)
         return result
