@@ -3,7 +3,7 @@ class Solution:
         nums.sort()
         result = 0
         for i in range(0, len(nums), 2):
-            result += min(nums[i], nums[i + 1])
+            result += nums[i]
             
         return result
         
