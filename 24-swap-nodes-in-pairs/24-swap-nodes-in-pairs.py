@@ -5,10 +5,19 @@
 #         self.next = next
 class Solution:
     def swapPairs(self, head: Optional[ListNode]) -> Optional[ListNode]:
-        node = head
+        root = prev = ListNode(None)
+        prev.next = head
         
-        while node and node.next:
-            node.val, node.next.val = node.next.val, node.val
-            node = node.next.next
+        while head and head.next:
+            temp = head.next
+            head.next = temp.next
+            temp.next = head
             
-        return head
+            prev.next = temp
+            
+            head = head.next
+            prev = prev.next.next
+            
+        return root.next
+    
+            
