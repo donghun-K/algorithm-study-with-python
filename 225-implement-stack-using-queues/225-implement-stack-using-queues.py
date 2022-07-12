@@ -11,9 +11,7 @@ class MyStack:
         return self.q.popleft()        
 
     def top(self) -> int:
-        top = self.q.popleft()
-        self.push(top)
-        return top
+        return self.q[0]
 
     def empty(self) -> bool:
         if len(self.q) == 0:
