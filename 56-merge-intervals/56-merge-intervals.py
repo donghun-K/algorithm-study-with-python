@@ -5,5 +5,5 @@ class Solution:
             if merged and i[0] <= merged[-1][1]:
                 merged[-1][1] = max(merged[-1][1], i[1])
             else:
-                merged += i,
+                merged.append(i)
         return merged
