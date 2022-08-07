@@ -1,9 +1,8 @@
-class Solution:
-    dp = collections.defaultdict(int)
-    
+class Solution:    
     def fib(self, n: int) -> int:
-        self.dp[1] = 1
+        x, y = 0, 1
         
-        for i in range(2, n+1):
-            self.dp[i] = self.dp[i - 1] + self.dp[i - 2]
-        return self.dp[n]
+        for i in range(n):
+            x, y = y, x + y
+            
+        return x
