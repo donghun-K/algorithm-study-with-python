@@ -16,3 +16,7 @@
 [수 정렬하기 1](https://github.com/donghun-K/do-it-algorithm-coding-test-with-python/tree/main/%EB%B0%B1%EC%A4%80/Bronze/2750.%E2%80%85%EC%88%98%E2%80%85%EC%A0%95%EB%A0%AC%ED%95%98%EA%B8%B0) / [버블 정렬 프로그램 1](https://github.com/donghun-K/do-it-algorithm-coding-test-with-python/tree/main/%EB%B0%B1%EC%A4%80/Gold/1377.%E2%80%85%EB%B2%84%EB%B8%94%E2%80%85%EC%86%8C%ED%8A%B8)
 ### 선택 정렬
 [내림차순으로 자릿수 정렬하기](https://github.com/donghun-K/do-it-algorithm-coding-test-with-python/tree/main/%EB%B0%B1%EC%A4%80/Silver/1427.%E2%80%85%EC%86%8C%ED%8A%B8%EC%9D%B8%EC%82%AC%EC%9D%B4%EB%93%9C)
+### 삽입 정렬
+[ATM 인출 시간 계산하기](https://github.com/donghun-K/do-it-algorithm-coding-test-with-python/tree/main/%EB%B0%B1%EC%A4%80/Silver/11399.%E2%80%85ATM)
+### 퀵 정렬
+[K번째 수 구하기](https://github.com/donghun-K/do-it-algorithm-coding-test-with-python/tree/main/%EB%B0%B1%EC%A4%80/Silver/11004.%E2%80%85K%EB%B2%88%EC%A7%B8%E2%80%85%EC%88%98)
