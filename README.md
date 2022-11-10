@@ -20,3 +20,7 @@
 [ATM 인출 시간 계산하기](https://github.com/donghun-K/do-it-algorithm-coding-test-with-python/tree/main/%EB%B0%B1%EC%A4%80/Silver/11399.%E2%80%85ATM)
 ### 퀵 정렬
 [K번째 수 구하기](https://github.com/donghun-K/do-it-algorithm-coding-test-with-python/tree/main/%EB%B0%B1%EC%A4%80/Silver/11004.%E2%80%85K%EB%B2%88%EC%A7%B8%E2%80%85%EC%88%98)
+### 깊이 우선 탐색
+[연결 요소의 개수 구하기](https://github.com/donghun-K/do-it-algorithm-coding-test-with-python/tree/main/%EB%B0%B1%EC%A4%80/Silver/11724.%E2%80%85%EC%97%B0%EA%B2%B0%E2%80%85%EC%9A%94%EC%86%8C%EC%9D%98%E2%80%85%EA%B0%9C%EC%88%98) / [신기한 소수 찾기](https://github.com/donghun-K/do-it-algorithm-coding-test-with-python/tree/main/%EB%B0%B1%EC%A4%80/Gold/2023.%E2%80%85%EC%8B%A0%EA%B8%B0%ED%95%9C%E2%80%85%EC%86%8C%EC%88%98) / [친구 관계 파악하기](https://github.com/donghun-K/do-it-algorithm-coding-test-with-python/tree/main/%EB%B0%B1%EC%A4%80/Gold/13023.%E2%80%85ABCDE)
+### 너비 우선 탐색
+[DFS와 BFS프로그램](https://github.com/donghun-K/do-it-algorithm-coding-test-with-python/tree/main/%EB%B0%B1%EC%A4%80/Silver/1260.%E2%80%85DFS%EC%99%80%E2%80%85BFS) / [미로 탐색하기](https://github.com/donghun-K/do-it-algorithm-coding-test-with-python/tree/main/%EB%B0%B1%EC%A4%80/Silver/2178.%E2%80%85%EB%AF%B8%EB%A1%9C%E2%80%85%ED%83%90%EC%83%89) / [트리의 지름 구하기](https://github.com/donghun-K/do-it-algorithm-coding-test-with-python/tree/main/%EB%B0%B1%EC%A4%80/Gold/1167.%E2%80%85%ED%8A%B8%EB%A6%AC%EC%9D%98%E2%80%85%EC%A7%80%EB%A6%84)
