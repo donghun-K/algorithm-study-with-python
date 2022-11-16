@@ -31,5 +31,5 @@
 ## 정수론
 ### 소수 구하기
 [소수 구하기](https://github.com/donghun-K/do-it-algorithm-coding-test-with-python/tree/main/%EB%B0%B1%EC%A4%80/Silver/1929.%E2%80%85%EC%86%8C%EC%88%98%E2%80%85%EA%B5%AC%ED%95%98%EA%B8%B0) / [거의 소수 구하기](https://github.com/donghun-K/do-it-algorithm-coding-test-with-python/tree/main/%EB%B0%B1%EC%A4%80/Gold/1456.%E2%80%85%EA%B1%B0%EC%9D%98%E2%80%85%EC%86%8C%EC%88%98) / [소수 & 팰린드롬 수 중에서 최솟값 찾기](https://github.com/donghun-K/do-it-algorithm-coding-test-with-python/tree/main/%EB%B0%B1%EC%A4%80/Silver/1747.%E2%80%85%EC%86%8C%EC%88%98%EF%BC%86%ED%8C%B0%EB%A6%B0%EB%93%9C%EB%A1%AC) / [제곱이 아닌 수 찾기](https://github.com/donghun-K/do-it-algorithm-coding-test-with-python/tree/main/%EB%B0%B1%EC%A4%80/Gold/1016.%E2%80%85%EC%A0%9C%EA%B3%B1%E2%80%85%E3%84%B4%E3%84%B4%E2%80%85%EC%88%98)
-
-### 오일러 피[오일러 피 함수 구현하기](https://github.com/donghun-K/do-it-algorithm-coding-test-with-python/tree/main/%EB%B0%B1%EC%A4%80/Gold/11689.%E2%80%85GCD%EF%BC%88n%EF%BC%8C%E2%80%85k%EF%BC%89%E2%80%85%EF%BC%9D%E2%80%851)
+### 오일러 피
+[오일러 피 함수 구현하기](https://github.com/donghun-K/do-it-algorithm-coding-test-with-python/tree/main/%EB%B0%B1%EC%A4%80/Gold/11689.%E2%80%85GCD%EF%BC%88n%EF%BC%8C%E2%80%85k%EF%BC%89%E2%80%85%EF%BC%9D%E2%80%851)
