@@ -1,6 +1,20 @@
-# 《Do it! 알고리즘 코딩 테스트 파이썬 편》
+## Data Structure
+### Array
+- 삽입/삭제: O(N)
+- 탐색: O(1)
+- `list` 사용
+### Stack
+- 삽입/삭제: O(1)
+- `list` 사용
+- **Push**: `push()` / **Pop**: `pop()`
+### Queue
+- 삽입/삭제: O(1)
+- `collections` 라이브러리의 `deque` 사용
+- **Enqueue**: `append()` / **Dequeue**: `popleft()`
 
-## 핵심 유형
+## 《Do it! 알고리즘 코딩 테스트 파이썬 편》
+
+### 핵심 유형
 - [구간 합 구하기 4](https://github.com/donghun-K/do-it-algorithm-coding-test-with-python/tree/main/%EB%B0%B1%EC%A4%80/Silver/11659.%E2%80%85%EA%B5%AC%EA%B0%84%E2%80%85%ED%95%A9%E2%80%85%EA%B5%AC%ED%95%98%EA%B8%B0%E2%80%854)
 - [좋다](https://github.com/donghun-K/do-it-algorithm-coding-test-with-python/tree/main/%EB%B0%B1%EC%A4%80/Gold/1253.%E2%80%85%EC%A2%8B%EB%8B%A4)
 - [최솟값 찾기](https://github.com/donghun-K/do-it-algorithm-coding-test-with-python/tree/main/%EB%B0%B1%EC%A4%80/Gold/11003.%E2%80%85%EC%B5%9C%EC%86%9F%EA%B0%92%E2%80%85%EC%B0%BE%EA%B8%B0)
