@@ -1,4 +1,4 @@
-# Data Structure & Algorithm with Python 학습 저장소
+# 코딩 테스트 대비 학습 저장소
 
 ## Data Structure
 ### Array
