@@ -35,3 +35,6 @@
 ### Binary search
 
 ### Dynamic programming
+
+## 유용한 Python 문법
+### List comprehension
