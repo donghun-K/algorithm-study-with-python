@@ -35,6 +35,12 @@
 ### Binary search
 
 ### Dynamic programming
+<br>
 
-## 유용한 Python 문법
+## Python 
 ### List comprehension
+### 최소공약수 구하기
+```python
+import Math
+Math.gcd(n1, n2)
+```
