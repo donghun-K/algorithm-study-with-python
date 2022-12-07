@@ -39,6 +39,10 @@
 
 ## Python 
 ### List comprehension
+### 몫과 나머지 구하기
+```python
+quotient, remainder = divmod(n1, n2)
+```
 ### 최소공약수 구하기
 ```python
 import Math
