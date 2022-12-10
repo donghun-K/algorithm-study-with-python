@@ -1,8 +1,8 @@
 # 코딩 테스트 대비 학습 저장소
 
-## [Data structure](/Data%20structure/README.md)
+## [Data structure](/Data%20structure)
 
-## [Algorithm](/Algorithm/README.md)
+## [Algorithm](/Algorithm)
 
 ## Python
 
