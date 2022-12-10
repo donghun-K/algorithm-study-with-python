@@ -2,7 +2,7 @@
 
 ## [Data structure](/Data%20structure/README.md)
 
-## [Algorithm](/Data%20structure/README.md)
+## [Algorithm](/Data%20/README.md)
 
 ## Python
 
