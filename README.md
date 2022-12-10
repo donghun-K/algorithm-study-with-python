@@ -1,49 +1,21 @@
 # 코딩 테스트 대비 학습 저장소
 
-## Data Structure
-### Array
-- 삽입/삭제: ***O(N)***
-- 탐색: ***O(1)***
-- `list` 사용
-### Stack
-- 삽입/삭제: ***O(1)***
-- `list` 사용
-- **Push**: `push()` / **Pop**: `pop()`
-### Queue
-- 삽입/삭제: ***O(1)***
-- `collections` 라이브러리의 `deque` 사용
-- **Enqueue**: `append()` / **Dequeue**: `popleft()`
-### Priority queue
-- 삽입/삭제: ***O(log N)***
-- `heapq` 사용 (Min-Heap)
-### Graph
-### Tree
-<br>
+## [Data structure](/Data%20structure/README.md)
 
-## Algorithm
-### Greedy algorithm
-- 매 순간마다 최선의 경우를 찾음
-- 어떤 경우가 최선인지 찾을 수 있어야 함
-### DFS(Depth First Search)
-- **Stack** 혹은 **Recursion**을 사용해 구현
-### BFS(Breadth First Search)
-- **Queue**를 사용해 구현
-- 최단 거리 탐색의 경우 유리
+## [Algorithm](/Data%20structure/README.md)
 
-### Backtracking
+## Python
 
-### Binary search
-
-### Dynamic programming
-<br>
-
-## Python 
 ### List comprehension
+
 ### 몫과 나머지 구하기
+
 ```python
 quotient, remainder = divmod(n1, n2)
 ```
+
 ### 최소공약수 구하기
+
 ```python
 import Math
 Math.gcd(n1, n2)
