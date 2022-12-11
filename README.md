@@ -4,4 +4,4 @@
 
 ## [Algorithm](/Algorithm)
 
-## [Python tips](/Python)
+## [Python Tips](/Python Tips)
