@@ -1,2 +1,2 @@
 def solution(sides):
-    return 1 + (sorted(sides)[2] >= sorted(sides)[0] + sorted(sides)[1])
+    return 1 + (max(sides) >= sum(sides) - max(sides))
