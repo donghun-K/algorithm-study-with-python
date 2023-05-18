@@ -1,3 +1,0 @@
-from itertools import combinations
-def solution(number):    
-    return [sum(nums) for nums in list(combinations(number,3))].count(0)
