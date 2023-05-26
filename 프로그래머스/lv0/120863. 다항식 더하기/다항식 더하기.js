@@ -13,14 +13,12 @@ function solution(polynomial) {
   });
   const answer = [];
   if (x > 0) {
-    if (x === 1) {
-      answer.push('x');
-    } else {
-      answer.push(`${x}x`);
-    }
+    answer.push(x > 1 ? `${x}x` : 'x');
   }
   if (n > 0) {
     answer.push(n);
   }
   return answer.join(' + ');
 }
+
+console.log(solution('3x + 7 + x'));
