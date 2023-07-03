@@ -8,23 +8,13 @@ const distances = input[1].split(' ').map(Number);
 const prices = input[2].split(' ').map(Number);
 
 let answer = 0;
-let d = 0;
 let minPrice = Infinity;
 
-for (let i = distances.length - 1; i >= 0; i--) {
-  const price = prices[i];
-  const distance = distances[i];
-
-  if (price <= minPrice) {
-    minPrice = price;
-    d += distance;
-  } else {
-    answer += d * minPrice;
-    d = distance;
-    minPrice = price;
+for (let i = 0; i < distances.length; i++) {
+  if (prices[i] < minPrice) {
+    minPrice = prices[i];
   }
+  answer += minPrice * distances[i];
 }
-
-answer += d * minPrice;
 
 console.log(answer);
