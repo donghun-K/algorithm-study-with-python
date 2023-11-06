@@ -79,7 +79,7 @@ while (true) {
     result = Math.min(result, uniqueHeights[right] - uniqueHeights[left]);
   }
   left++;
-  if (left > middle || right >= uniqueHeights) break;
+  if (left > middle) break;
 }
 
 console.log(result);
