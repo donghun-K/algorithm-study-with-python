@@ -6,9 +6,17 @@ function solution(bridge_length, weight, truck_weights) {
   const truckWeightQueue = [...truck_weights];
 
   while (truckWeightQueue.length > 0 || trucksOnBridge.length > 0) {
-    time++;
-
-    trucksOnBridge.forEach((truck) => truck[1]++);
+    if (
+      truckWeightQueue.length > 0 &&
+      weightTotal + truckWeightQueue[0] > weight
+    ) {
+      const skipTime = bridge_length - trucksOnBridge[0][1];
+      trucksOnBridge.forEach((truck) => (truck[1] += skipTime));
+      time += skipTime;
+    } else {
+      trucksOnBridge.forEach((truck) => truck[1]++);
+      time++;
+    }
 
     if (trucksOnBridge.length > 0 && trucksOnBridge[0][1] === bridge_length) {
       weightTotal -= trucksOnBridge[0][0];
