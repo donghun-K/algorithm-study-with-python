@@ -80,26 +80,24 @@ function solution(n, costs) {
 
   let answer = Infinity;
 
-  for (let i = 0; i < n; i++) {
-    const heap = new Heap((next, prev) => next[1] > prev[1]);
-    const visited = Array(n).fill(false);
-    for (const [v, cost] of graph[i]) {
-      heap.push([v, cost]);
-    }
-    visited[i] = true;
-    let total = 0;
-    while (visited.includes(false)) {
-      const [current, cost] = heap.pop();
-      if (visited[current]) continue;
-      total += cost;
-      visited[current] = true;
-      for (const [next, cost] of graph[current]) {
-        if (visited[next]) continue;
-        heap.push([next, cost]);
-      }
-    }
-    answer = Math.min(answer, total);
+  const heap = new Heap((next, prev) => next[1] > prev[1]);
+  const visited = Array(n).fill(false);
+  for (const [v, cost] of graph[0]) {
+    heap.push([v, cost]);
   }
+  visited[0] = true;
+  let total = 0;
+  while (visited.includes(false)) {
+    const [current, cost] = heap.pop();
+    if (visited[current]) continue;
+    total += cost;
+    visited[current] = true;
+    for (const [next, cost] of graph[current]) {
+      if (visited[next]) continue;
+      heap.push([next, cost]);
+    }
+  }
+  answer = Math.min(answer, total);
 
   return answer;
 }
