@@ -78,8 +78,6 @@ function solution(n, costs) {
     graph[v2].push([v1, cost]);
   }
 
-  let answer = Infinity;
-
   const heap = new Heap((next, prev) => next[1] > prev[1]);
   const visited = Array(n).fill(false);
   for (const [v, cost] of graph[0]) {
@@ -97,7 +95,7 @@ function solution(n, costs) {
       heap.push([next, cost]);
     }
   }
-  answer = Math.min(answer, total);
+  
 
-  return answer;
+  return total;
 }
